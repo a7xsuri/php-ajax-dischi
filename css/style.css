@@ -1,0 +1,60 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+/* #region || HEADER ||*/
+header {
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+}
+nav {
+    background-color: #2E3A46;
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+.logo {
+    width: 65px;
+    padding-left: 20px;
+}
+/* #endregion HEADER*/
+
+
+main {
+    background-color: #1E2D3B;
+    min-height: 100vh;
+    padding-top: 70px;
+}
+.myContainer {
+    padding-top: 60px;
+}
+.myCard {
+    color: white;
+    width: 200px;
+    height: 350px;
+    background-color: #2E3A46;
+    /* padding: 1rem; */
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    text-align: center;
+    
+}
+.myCard img {
+    width: 150px;
+    height: 150px;
+}
+.myCard h4 {
+    padding: 20px 0 10px 0;
+    line-height: 95%;
+    text-transform: uppercase;
+    color:blue;
+}
+.myCard span {
+    color: rgb(165, 164, 164);
+    font-size: 18px;
+    line-height: 120%;
+}
